@@ -1,0 +1,276 @@
+body
+{
+	font-family: Georgia,"Arial Black", Arial, Verdana, serif;
+    margin-top: 0;
+    background-image: url(images/5.png); 
+    min-width: 1250px;
+}
+
+header
+{
+	background:  url(images/4.jpg) no-repeat ;
+	border-radius: 5px;
+	background-size: 100%;
+	height: 100px;
+	text-align: center;
+	padding-top:15px; 
+
+
+}
+.titre
+{
+   font-size: 45px;
+   color: 	#FFD700;
+}
+#bloc_deconnexion
+{
+		text-align: right;
+		padding-right: 10px;
+
+}
+#deconnection
+{
+	background: pink;
+	padding: 5px;
+	border-radius: 5px;
+
+}
+#deconnection:hover
+{
+	text-decoration: underline;
+}
+a
+{text-decoration: none;}
+nav
+{
+	background-color: silver;
+	border-radius: 5px;
+	padding-left: 200px;
+}
+nav table tr td 
+{
+	padding: 10px 30px 5px 30px;
+}
+nav table tr td:hover
+{
+	background-color: pink;
+	text-decoration: underline;
+}
+section
+{
+	
+	margin: 20px 350px 0 400px;
+	
+	height: 320px;
+	
+	 
+}
+#form1
+{
+	padding: 30px 0 0 30px;
+	font-size: 24px;
+	color: 	#808000;
+	width: 430px;
+	background-color: white;
+}
+#submit
+{
+	width: 135px;
+	height: 39px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+    
+}
+#submit2
+{
+	width: 135px;
+	height: 39px;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: bold;
+    
+}
+#submit:hover ,#submit2:hover
+{
+	
+	background-color: pink;
+	
+}
+#b_submit
+{
+	text-align: right;
+	padding-right: 10px;
+	background-color: #4B0082;
+	width: 450px;
+	margin-top: 10px;
+	margin-left: -30px;
+}
+#auth
+{
+	background: #4B0082;
+	color: white;
+	height: 80px;
+	width: 450px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	font-size: 25px;
+}
+#auth1
+{
+	background: #4B0082;
+	color: white;
+	height: 80px;
+	font-size: 25px;
+	margin-left: -18px;
+	margin-right: -50px;
+	margin-bottom: -150px;
+
+}
+#auth_rech
+{
+	text-align: right;
+	padding-right: 10px;
+	background: #4B0082;
+	color: white;
+	height: 80px;
+	font-size: 25px;
+	width: 1181px;
+	
+
+}
+#auth2
+{  
+    background: #4B0082;
+	color: white;
+	height: 80px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	font-size: 25px;
+	margin-left: 20px;
+	margin-right: 2px;
+}
+
+#auth1 input
+{
+     
+	margin-left: 1000px;
+	height: 40px;
+	width: 150px;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 10px;
+	border-radius: 5px;
+
+}
+#auth_rech input
+{
+     
+	height: 40px;
+	width: 150px;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: red;
+
+}
+#auth1 input:hover
+{
+	background-color: pink;
+	
+}
+#auth_rech input:hover
+{
+	background-color: pink;
+	
+}
+input,select
+{
+	width: 300px;
+	height: 30px;
+	margin: 5px  0  10px 0;
+	font-size: 20px;
+	border: 1px solid #0000CD;
+	border-radius: 5px;
+	background-color: #DEB887;
+}
+input:focus,select:focus
+{
+	background-color: #FFFF99;
+	border: 1px groove #0000CD;
+}
+#content
+{
+	margin:10px 20px 100px 20px;
+	font-size: 18px;
+
+
+}
+#form2 td
+{
+	padding-right: 40px;
+	padding-bottom: 50px;
+
+}
+#form2
+{
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 15px;
+	color: 	#808000;
+}
+#s_content
+{
+		background-color: white;
+		width: 99.5%;
+		margin: -15px -10px -4px 5px;
+		padding-top: 15px;
+		padding-left: 10px;
+
+
+}
+#etage1
+{
+	margin-left: 10px;
+}
+#arch
+{
+	background-color: #4B0082;
+	height: 60px;
+	width: 850px;
+	padding-top: 15px;
+	padding-left: 15px;
+	color: white;
+}
+#ss_arch
+{
+    margin-left: 100px;
+}
+.plan
+{
+	float: left;
+	margin-right: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding:0  7px 7px 7px;
+}
+.ss_titre
+{
+	text-align: center;
+}
+.message
+{
+
+	color: white ;
+	width: 370px;
+	margin-left: 30px;
+	 text-align: left; 
+	 background-color: green;
+	  border-radius: 5px;
+	  padding: 10px;
+	  padding-left: 40px;
+}
